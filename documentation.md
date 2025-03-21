@@ -14,7 +14,7 @@ Below I will write out steps so you too can create a similar app using AWS Ampli
 
    - `tailwindcss` is used for styling.
    - `@tailwindcss/vite` is used for configuring Tailwind CSS with Vite.
-   - `react-router-dom` is used for routing.
+   - `react-router-dom` is used for routing. `// maybe use react-router-dom@latest to install the latest version?`
    - `aws-amplify` is used for authentication.
    - `@aws-amplify/ui-react` is used for UI components. Add authenticator.
 
@@ -22,4 +22,4 @@ Below I will write out steps so you too can create a similar app using AWS Ampli
 
    > `npm create amplify@latest`
 
-4.
+4. Create pages and add routing to them.
