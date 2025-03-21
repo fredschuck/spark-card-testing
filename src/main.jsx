@@ -23,9 +23,9 @@ const user = {
   bio: "I love coding and building cool stuff!",
   socialLinks: [
     { name: "GitHub", url: "https://github.com/fredschuck" },
-    { name: "X", url: "https://twitter.com" },
+    { name: "X", url: "https://x.com/iamfredschuck" },
     { name: "LinkedIn", url: "https://linkedin.com/in/fredschuck" },
-    { name: "Portfolio", url: "https://example.com" },
+    { name: "Portfolio", url: "https://olaolu.dev" },
   ],
 };
 

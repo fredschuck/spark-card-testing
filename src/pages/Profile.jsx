@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Profile = ({ user }) => {
+  // Update document title when user changes
+  useEffect(() => {
+    // Set the title when component mounts
+    document.title = `${user.name}'s Spark Profile`;
+
+    // Reset title when component unmounts (optional)
+    return () => {
+      document.title = "SparkCard";
+    };
+  }, [user.name]); // Re-run effect if user.name changes
+
   return (
     <div className="max-w-2xl mx-auto bg-white shadow-lg overflow-hidden">
       {/* Banner */}

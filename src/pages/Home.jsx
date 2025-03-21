@@ -12,7 +12,7 @@ const Home = () => {
         </p>
         <div className="flex justify-center space-x-4">
           <Link to="/signup">
-            <button className="px-6 py-2 bg-orange-600 text-white rounded hover:bg-orange-100 hover:outline hover:outline-2 hover:outline-orange-600 hover:text-orange-600">
+            <button className="px-6 py-2 bg-orange-600 text-white rounded hover:bg-orange-100 hover:outline hover:outline-orange-600 hover:text-orange-600">
               Sign Up
             </button>
           </Link>

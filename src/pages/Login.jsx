@@ -60,7 +60,7 @@ const Login = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-orange-600 text-white py-2 rounded hover:bg-orange-100 hover:outline hover:outline-2 hover:outline-orange-600 hover:text-orange-600"
+            className="w-full bg-orange-600 text-white py-2 rounded hover:bg-orange-100 hover:outline hover:outline-orange-600 hover:text-orange-600"
           >
             Login
           </button>
