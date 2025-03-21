@@ -10,7 +10,7 @@ const Profile = ({ user }) => {
           <img
             src={user.profilePicture}
             alt="Profile"
-            className="w-24 h-24 rounded-full border-4 border-white shadow-lg"
+            className="w-24 h-24 rounded-full border-4 border-white shadow-lg object-cover"
           />
         </div>
       </div>
@@ -37,22 +37,6 @@ const Profile = ({ user }) => {
       </div>
     </div>
   );
-};
-
-// Default props in case no user data is passed
-Profile.defaultProps = {
-  user: {
-    name: "John Doe",
-    profilePicture:
-      "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    bio: "I love coding and building cool stuff!",
-    socialLinks: [
-      { name: "GitHub", url: "https://github.com" },
-      { name: "Twitter", url: "https://twitter.com" },
-      { name: "LinkedIn", url: "https://linkedin.com" },
-      { name: "Portfolio", url: "https://example.com" },
-    ],
-  },
 };
 
 export default Profile;
