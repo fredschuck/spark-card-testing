@@ -35,6 +35,12 @@ const Navbar = () => {
             >
               Signup
             </Link>
+            <Link
+              to="/profile"
+              className="text-gray-700 bg-primary hover:bg-secondary px-4 py-2 rounded-md transition duration-200"
+            >
+              Profile
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -92,9 +98,16 @@ const Navbar = () => {
             <Link
               to="/signup"
               onClick={() => setIsOpen(false)}
-              className="block text-blue-500 bg-primary hover:bg-secondary rounded-md transition duration-200"
+              className="block text-orange-600 bg-primary hover:bg-secondary rounded-md transition duration-200"
             >
               Signup
+            </Link>
+            <Link
+              to="/profile"
+              onClick={() => setIsOpen(false)}
+              className="text-gray-700 bg-primary hover:bg-secondary py-2 rounded-md transition duration-200"
+            >
+              Profile
             </Link>
           </div>
         </div>
